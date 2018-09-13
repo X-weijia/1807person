@@ -196,6 +196,7 @@ header{
 }
 .container{
     margin: 140px auto 0;
+
 }
 .row>ul>li{
     width: 390px;
@@ -248,6 +249,12 @@ header{
     width: 100%;
     height: auto;
     background: rgba(0, 0, 0, 0.4);
+    
+}
+.works .container{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
 }
 .works_top{
     height: 83px;
@@ -267,11 +274,13 @@ header{
     height: auto;
     padding-bottom: 30px;
     display: flex;
-    justify-content: space-between;
-
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
 }
 .works_list a{
     color: #000;
+    transition: all .4s linear;
 }
 .works_list a:hover{
     transform: scale(1.2);
@@ -280,11 +289,13 @@ header{
 .works_list div{
     width: 260px;
     height: 276px;
+    border-radius: 40px;
     /*background: #b37eff;*/
 }
 .works_list img{
     width: 230px;
     height: 200px;
+    border-radius: 40px;
 }
 .works_list{
     text-align: center;
@@ -319,7 +330,7 @@ header{
     float: left;
 }
 .turn li img{
-    width: 790px;
+    width: 800px;
     height: 420px;
 }
 .bg{
